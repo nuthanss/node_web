@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.get('/port', (req, res) => {
-   res.send(`${process.env.PORT}`)
+   res.send(process.env.PORT)
 })
 const PORT = 3002;
 app.listen(PORT, () => {
