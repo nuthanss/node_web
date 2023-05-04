@@ -14,7 +14,7 @@ function fetchJson() {
 
 fetchJson();
 
-fetch('http://localhost:3002/port', {
+fetch('/port', {
 })
 .then(res => res.json())
 .then(data => console.log(data))
