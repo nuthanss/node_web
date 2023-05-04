@@ -1,3 +1,4 @@
+
 function fetchJson() {
   const authHeader = 'Basic ' + btoa('admin:admin');
   fetch('https://server-json-y3ww.onrender.com/posts', {
@@ -12,3 +13,9 @@ function fetchJson() {
 }
 
 fetchJson();
+
+fetch('http://localhost:3002/port', {
+})
+.then(res => res.json())
+.then(data => console.log(data))
+.catch(error => console.log(error));
