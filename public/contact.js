@@ -12,6 +12,7 @@ function fetchJson() {
 }
 
 fetchJson();
+console.log(data)
 
 // fetch("/port", {})
 //   .then((res) => res.json())
