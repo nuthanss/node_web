@@ -1,0 +1,9 @@
+.fa:hover {
+    transform: scale(1.2);
+    z-index: 1;
+    
+}
+
+.fa:active {
+    transform: translateY(1px);
+}
