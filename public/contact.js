@@ -14,7 +14,7 @@ function fetchJson() {
 fetchJson();
 console.log(data)
 
-// fetch("/port", {})
-//   .then((res) => res.json())
-//   .then((data) => console.log(data))
-//   .catch((error) => console.log(error));
+fetch("/port")
+  .then((res) => res.json())
+  .then((data) => console.log(data))
+  .catch((error) => console.log(error));
