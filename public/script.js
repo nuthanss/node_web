@@ -1,4 +1,5 @@
 
+
 const AddContact = () => {
     let fname = document.getElementById('firstname').value;
     let lname = document.getElementById('lastname').value;
@@ -23,7 +24,7 @@ const AddContact = () => {
     }).then(res => res.json())
         .then(data => {
             console.log(data);
-            // alert('Contact Added Successfully !');
+             alert('Contact Added Successfully !');
         }).catch(err => {
             alert('Something went wrong !');
         })
